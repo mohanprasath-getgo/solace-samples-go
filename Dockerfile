@@ -19,4 +19,4 @@ RUN go mod download
 
 COPY . /app
 #RUN go get -v -d ./...
-RUN go build -o main patters/hello_world.go
+RUN go build -o main patterns/hello_world.go
